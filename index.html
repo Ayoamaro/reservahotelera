@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>U05-T01. Preparando reserva hotelera</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <label class="m-2" for="contenido">¡Realiza la reserva de tu hotel!</label>
+    <div id="contenido" class="m-2 p-2 border">
+        <form class="was-validated">
+            <div class="form-row">
+                <div class="col-md-2 mb-3">
+                    <label for="nHotel">Nombre del hotel</label>
+                    <input type="text" class="form-control" id="nHotel" value="" required>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label for="fLlegada">Fecha de entrada</label>
+                    <input type="date" class="form-control" id="fLlegada" min="" required />
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label for="nNoches">Número de noches</label>
+                    <select id="listaNoches" class="custom-select" required>
+                        <optgroup label="Popular durations">
+                            <option value="4">4 Noches</option>
+                            <option value="7">7 Noches</option>
+                            <option value="10">10 Noches</option>
+                            <option value="14">14 Noches</option>
+                        </optgroup>
+                        <optgroup id="daily" label="Daily"></optgroup>
+                    </select>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label for="nHabitaciones">Habitaciones y huéspedes</label>
+                    <input type="text" class="form-control" id="nHabitaciones" value="" disabled>
+                    <button type="button" id="ejecucionModal" class="btn btn-primary mt-1">
+                        Personalizar...
+                    </button>
+                    <button type="button" id="guardarCambios" class="btn btn-success mt-1">
+                        Guardar cambios...
+                    </button>
+                </div>
+                <div class="col-md-1 mt-4">
+                    <button class="btn btn-primary" id="resultado" type="button">Buscar</button>
+                </div>
+            </div>
+            <div class="row">
+                <div id="habitacionPredeterminada" class="col-auto contar"></div>
+                <div id="habitacionNueva" class="col-auto">
+                    <div id="contenidoRow" class="row"></div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="js\script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
