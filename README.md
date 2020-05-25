@@ -1,4 +1,4 @@
-# U09-P01: Comics y personajes de Marvel
+# U05-T01: Preparando reserva hotelera
 
 ![imagen_previa.PNG](https://github.com/Ayoamaro/reservahotelera.github.io/blob/master/img/imagen_previa.PNG?raw=true)
 
