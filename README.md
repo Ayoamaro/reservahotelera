@@ -23,12 +23,12 @@ Se solicita realizar una Web que ofrezca al usuario un formulario de búsqueda d
      * un label con el texto "Adultos" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
      * un label con el texto "Niños" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
      * Si se seleccionan niños (es decir, el número de niños es mayor que cero) se mostrará un combo por cada niño para que el usuario pueda introducir la edad.
-        
+
 Inicialmente se mostrará el texto "Edad" como valor de edad.
-        * Puede suceder que el usuario cambie en cualquier momento el número de niños, teniendo que aparecer tantos combos pidiendo las edades. De esta manera podría suceder que el usuario reduzca el número de niños y por tanto debería ajustarse el número de combos para las edades que aparecen (desapareciendo)
-        * También aparecerá un botón para añadir más habitaciones.
-            * La primera habitación no se podrá borrar. En el resto de habitaciones se podrán borrar, mostrándose una X o un icono que sugiera la acción
-            * Una vez el usuario ha introducido los datos el usuario pulsará el texto "Hecho", desapareciendo la opciones para elegir la distribuciones de huéspedes y cargándose dicha información sobre las habitaciones.
+     * Puede suceder que el usuario cambie en cualquier momento el número de niños, teniendo que aparecer tantos combos pidiendo las edades. De esta manera podría suceder que el usuario reduzca el número de niños y por tanto debería ajustarse el número de combos para las edades que aparecen (desapareciendo)
+     * También aparecerá un botón para añadir más habitaciones.
+      * La primera habitación no se podrá borrar. En el resto de habitaciones se podrán borrar, mostrándose una X o un icono que sugiera la acción
+      * Una vez el usuario ha introducido los datos el usuario pulsará el texto "Hecho", desapareciendo la opciones para elegir la distribuciones de huéspedes y cargándose dicha información sobre las habitaciones.
 
 Una vez el usuario haga click en el botón buscar, se mostrará por consola un resumen de las opciones elegidas por el usuario.
 
