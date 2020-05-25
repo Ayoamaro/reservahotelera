@@ -10,32 +10,21 @@ Partiendo de un fichero HTML que contenga ya creados los siguientes elementos pa
 * Habitaciones y huéspedes
 * Botón de búsqueda
 
-Se solicita realizar una Web que ofrezca al usuario un formulario de búsqueda de alojamientos
-que contenga:
+Se solicita realizar una Web que ofrezca al usuario un formulario de búsqueda de alojamientos que contenga:
 * Descripción o nombre del hotel: caja de texto en la que el usuario podrá escribir.
-* Fecha de entrada: input de tipo date que se inicializará con la fecha actual al cargarse la
-web. El usuario podrá seleccionar la fecha con el ratón.
-* Número de noches: combo que permitirá elegir el número de noches. Se presentarán en el
-combo:
+* Fecha de entrada: input de tipo date que se inicializará con la fecha actual al cargarse la web. El usuario podrá seleccionar la fecha con el ratón.
+* Número de noches: combo que permitirá elegir el número de noches. Se presentarán en el combo:
     * una serie de valores populares sobre la duración: 4, 7, 10 y 14 noches
-    * también se ofrecerán en el mismo combo, que el usuario pueda incluir el número de
-nombres exactas
+    * también se ofrecerán en el mismo combo, que el usuario pueda incluir el número de nombres exactas
 
-* Número de habitaciones y sus huéspedes (adultos y niños): se mostrará un texto con la
-información seleccionada
+* Número de habitaciones y sus huéspedes (adultos y niños): se mostrará un texto con la información seleccionada
     * por defecto el número de habitaciones será 1, el número de adultos 2 y niños 0.
-    * al hacer click en la caja de texto que muestra la información relativa al número de
-habitaciones y sus huéspedes se mostrarán las siguientes opciones:
-        * un label con el texto "Adultos" y un combo para que el usuario pueda modificar el
-número. El valor debe cargarse con el que haya en la caja de texto con la
-información de huéspedes
-        * un label con el texto "Niños" y un combo para que el usuario pueda modificar el
-número. El valor debe cargarse con el que haya en la caja de texto con la
-información de huéspedes
-        * Si se seleccionan niños (es decir, el número de niños es mayor que cero) se
-mostrará un combo por cada niño para que el usuario pueda introducir la edad.
+    * al hacer click en la caja de texto que muestra la información relativa al número de habitaciones y sus huéspedes se mostrarán las siguientes opciones:
+        * un label con el texto "Adultos" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
+        * un label con el texto "Niños" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
+        * Si se seleccionan niños (es decir, el número de niños es mayor que cero) se mostrará un combo por cada niño para que el usuario pueda introducir la edad.
+        
 Inicialmente se mostrará el texto "Edad" como valor de edad.
-
         * Puede suceder que el usuario cambie en cualquier momento el número de niños,
 teniendo que aparecer tantos combos pidiendo las edades. De esta manera podría
 suceder que el usuario reduzca el número de niños y por tanto debería ajustarse el
