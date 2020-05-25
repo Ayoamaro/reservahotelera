@@ -20,9 +20,9 @@ Se solicita realizar una Web que ofrezca al usuario un formulario de búsqueda d
 * Número de habitaciones y sus huéspedes (adultos y niños): se mostrará un texto con la información seleccionada
     * por defecto el número de habitaciones será 1, el número de adultos 2 y niños 0.
     * al hacer click en la caja de texto que muestra la información relativa al número de habitaciones y sus huéspedes se mostrarán las siguientes opciones:
-        * un label con el texto "Adultos" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
-        * un label con el texto "Niños" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
-        * Si se seleccionan niños (es decir, el número de niños es mayor que cero) se mostrará un combo por cada niño para que el usuario pueda introducir la edad.
+     * un label con el texto "Adultos" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
+     * un label con el texto "Niños" y un combo para que el usuario pueda modificar el número. El valor debe cargarse con el que haya en la caja de texto con la información de huéspedes
+     * Si se seleccionan niños (es decir, el número de niños es mayor que cero) se mostrará un combo por cada niño para que el usuario pueda introducir la edad.
         
 Inicialmente se mostrará el texto "Edad" como valor de edad.
         * Puede suceder que el usuario cambie en cualquier momento el número de niños, teniendo que aparecer tantos combos pidiendo las edades. De esta manera podría suceder que el usuario reduzca el número de niños y por tanto debería ajustarse el número de combos para las edades que aparecen (desapareciendo)
