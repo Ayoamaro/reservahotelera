@@ -33,10 +33,10 @@ Inicialmente se mostrará el texto "Edad" como valor de edad.
 Una vez el usuario haga click en el botón buscar, se mostrará por consola un resumen de las opciones elegidas por el usuario.
 
 ## Ejecución
-1. Descargar el [Proyecto](https://bit.ly/2TDhchl) y descomprimir
-2. Abrir con [Visual Studio Code](https://code.visualstudio.com) o algún editor de código
-3. Descargar el [Live Server](https://bit.ly/3elOzNx)
-3. Abrir el **index.html** y ejecutarlo con la opción "Go Live"
+1. Descargar el [Proyecto](https://bit.ly/2TDhchl) y descomprimir.
+2. Abrir con [Visual Studio Code](https://code.visualstudio.com) o algún editor de código.
+3. Descargar el [Live Server](https://bit.ly/3elOzNx).
+3. Abrir el **index.html** y ejecutarlo con la opción "Go Live".
 
 ## Hecho con
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - **58,87‬%**
