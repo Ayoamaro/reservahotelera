@@ -15,13 +15,11 @@ que contenga:
 * Descripción o nombre del hotel: caja de texto en la que el usuario podrá escribir.
 * Fecha de entrada: input de tipo date que se inicializará con la fecha actual al cargarse la
 web. El usuario podrá seleccionar la fecha con el ratón.
-
 * Número de noches: combo que permitirá elegir el número de noches. Se presentarán en el
-combo;
+combo:
     * una serie de valores populares sobre la duración: 4, 7, 10 y 14 noches
     * también se ofrecerán en el mismo combo, que el usuario pueda incluir el número de
 nombres exactas
-
 
 * Número de habitaciones y sus huéspedes (adultos y niños): se mostrará un texto con la
 información seleccionada
@@ -36,7 +34,7 @@ número. El valor debe cargarse con el que haya en la caja de texto con la
 información de huéspedes
         * Si se seleccionan niños (es decir, el número de niños es mayor que cero) se
 mostrará un combo por cada niño para que el usuario pueda introducir la edad.
-Inicialmente se mostrará el texto "Edad" como valor de edad
+Inicialmente se mostrará el texto "Edad" como valor de edad.
 
         * Puede suceder que el usuario cambie en cualquier momento el número de niños,
 teniendo que aparecer tantos combos pidiendo las edades. De esta manera podría
